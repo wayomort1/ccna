@@ -4,7 +4,12 @@
 
 Networking models categorize and provide a structure for networking protocols and standards.
 
-(Protocols are a set of logical rules defining how network devices and software should work)
+Protocols are a set of logical rules defining how data should be communicated between devices over a network.
+
+Standards is an agreed-upon specification that describes how a protocol or technology should work.
+
+IEEE: Develops many of the technology used on the local area network (Ethernet(802.3),Wi-Fi(802.11)).
+IETF: open community that defines protocols used on the network (TCP,IP,UDP,HTTP,DNS,etc).
 
 ## OSI MODEL
 
@@ -146,7 +151,15 @@ A PDU is a Protocol Data Unit. Each step of the process is a PDU.
 - * Note : The OSI Model still influences how network engineers think and talk about networks.
 
 ![image](https://github.com/psaumur/CCNA/assets/106411237/e9593c06-46a3-4ff9-aa01-863e0aeb5df3)
+Application Layer : protocol for communication between application processes; create and interpret data.
 
+Transport Layer : provide end-to-end communication between application processes using port numbers.
+
+Internet Layer : provide end-to-end communication between hosts across networks using IP addresses and routers.
+
+Local Network Layer : provide hob-to-hob delivery of messages on the local network using MAC addresses and switches.
+
+physical Layer : send bits as electrical , optical , radio signals over the physical medium.  
 
 ---
 
